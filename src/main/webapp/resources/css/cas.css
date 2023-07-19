@@ -1,0 +1,29 @@
+header {
+    color: purple;
+    font-size: 20px;
+}
+body { background-color: powderblue; }
+table, th, td { border: 1px solid black; }
+p::first-letter { color: red; }
+input {
+    margin-left: 1%;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+select, button {
+    margin-left: 1%;
+    display: block;
+}
+select#inputR:focus {
+    background-color: purple;
+    border: 1px solid #000000;
+}
+input#inputX:focus, input#inputY:focus {
+    background-color: yellow;
+    border: 1px solid #000000;
+}
+input#hiddenX {
+    display: none;
+}
